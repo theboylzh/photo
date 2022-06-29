@@ -946,7 +946,6 @@ body {
 .post-header-background {
   position: relative;
   display: flex;
-  top: 50px;
   width: 100%;
   background: #FFFFFF;
   flex-shrink: 0;
@@ -954,7 +953,7 @@ body {
 .post-header-background-content {
   display: flex;
   margin: 0 auto;
-  padding: 135px 40px 0px;
+  padding: 110px 40px 0px;
   flex-basis: 1000px;
   flex-direction: column;
 }
@@ -1097,6 +1096,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  top: -110px;
   z-index: 2;
 }
 .post-content-info {
@@ -1178,12 +1178,12 @@ body {
 }
 @media screen and (max-width: 800px) {
   .post-content-info {
-    margin: 50px;
+    margin: 0px;
   }
 }
 @media screen and (max-width: 600px) {
   .post-content-info {
-    margin: 40px 20px;
+    margin: 0px 20px;
   }
 }
 .tag-content {
